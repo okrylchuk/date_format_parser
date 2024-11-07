@@ -1,0 +1,11 @@
+[package]
+name = "date_format_parser"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A parser that recognizes and extracts day, month, and year components from dates in multiple formats."
+
+[dependencies]
+anyhow = "1.0.93"
+pest = "2.7.14"
+pest_derive = "2.7.14"
