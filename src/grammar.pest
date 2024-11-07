@@ -1,0 +1,11 @@
+date = { SOI ~ day_month_year | month_day_year ~ EOI }
+
+month_day_year = { month ~ separator ~ WS? ~ day ~ separator ~ WS? ~ year }
+day_month_year = { day ~ separator ~ WS? ~ month ~ separator ~ WS? ~ year }
+
+year = { '1'..'9' ~ ASCII_DIGIT ~ ASCII_DIGIT ~ ASCII_DIGIT }
+month = { ("0" ~ '1'..'9') | ("1" ~ '0'..'2') }
+day = { ("0" ~ '1'..'9') | ('1'..'2' ~ ASCII_DIGIT) | ("3" ~ '0'..'1') }
+
+WS = _{ " " | "\t" }
+separator = _{ "-" | "/" | "." }
