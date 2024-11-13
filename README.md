@@ -1,5 +1,7 @@
 # date_format_parser
 
+Link: https://crates.io/crates/date_format_parser
+
 Date Format Parser project is designed to parse date and date-time strings into a standard ISO 8601 format. It supports multiple date formats, optional time components, and flexible separators.
 
 ## Features
