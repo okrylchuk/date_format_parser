@@ -3,9 +3,10 @@ name = "date_format_parser"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-description = "A parser that recognizes and extracts day, month, and year components from dates in multiple formats."
+description = "A parser standardizing date and date-time strings into ISO 8601 format."
 
 [dependencies]
 anyhow = "1.0.93"
 pest = "2.7.14"
 pest_derive = "2.7.14"
+thiserror = "2.0.3"
