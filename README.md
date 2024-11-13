@@ -27,9 +27,16 @@ Date Format Parser project is designed to parse date and date-time strings into 
 
 ### Running the CLI
 
-1. Help:
 ```rust
 cargo run -- <input>
+```
+Replace `<input>` with a date or date-time string.
+
+### Commands
+
+1. Help
+```rust
+cargo -- --help
 ```
 Displays usage information.
 
